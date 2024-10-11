@@ -1,6 +1,6 @@
 "use client";
 
-import { Ellipsis, Eye, EyeOff, Trash } from "lucide-react";
+import {  Eye, EyeOff, Trash } from "lucide-react";
 import { useState } from "react";
 
 type Wallet = {
