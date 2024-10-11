@@ -84,7 +84,7 @@ const WalletGenerator = () => {
   return (
     <div>
       <div>
-      <Mnemonicard mnemonic={mnemonic}/>
+      {mnemonic && wallets.length > 0 && <Mnemonicard mnemonic={mnemonic} />}
       </div>
       <div className="p-6">
         <div className="flex px-2 h-[56px] rounded-xl shadow-md bg-slate-50 border border-slate-400 justify-between items-center">
