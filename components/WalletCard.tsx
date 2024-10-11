@@ -10,7 +10,6 @@ type Wallet = {
 };
 
 const WalletCard = ({
-    mnemonic,
     wallet,
     deleteWallet,
 }: {
