@@ -24,8 +24,9 @@ const WalletCard = ({
   };
 
   return (
+    <div className="flex">
     <div className="mt-2 p-5 shadow-2xl rounded-xl mx-2 w-full bg-slate-200">
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 ">
         <div className="flex justify-between">
           <h1 className="font-bold text-lg md:text-xl">Wallet</h1>
           <div className="pr-2">
@@ -60,6 +61,7 @@ const WalletCard = ({
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

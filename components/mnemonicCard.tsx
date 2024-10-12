@@ -29,7 +29,13 @@ const Mnemonicard = ({ mnemonic }: { mnemonic: string }) => {
     };
 
     return (
-        <div className="p-10 w-screen flex flex-col justify-center">
+        <div>
+            <div className="p-10 w-screen flex flex-col justify-center">
+            <div>
+                <h1 className="sm:text-4xl text-xl font-bold">Secret Recovery Phrase</h1>
+                <h2 className="text-slate-600 pb-5">Save these words in a safe place. don't share</h2>
+
+            </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2  rounded-xl">
                 {words.map((word, index) => (
                     <h1
@@ -46,6 +52,7 @@ const Mnemonicard = ({ mnemonic }: { mnemonic: string }) => {
                     <span>Click to Copy</span>
                 </div>
             ) : null}
+        </div>
         </div>
     );
 };
